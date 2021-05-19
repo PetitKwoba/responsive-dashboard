@@ -1,5 +1,6 @@
 const linkName = document.querySelector(".link-name");
 const nameInput = document.querySelector(".name-input");
+const dshboardBtn = document.querySelector(".dshboard-btn");
 
 function  setName (name) {
     linkName.innerText = "Welcome, ";
@@ -10,11 +11,9 @@ function  setName (name) {
     return nameInner;
 }  
 
-nameInput.addEventListener("change", () => {
+dshboardBtn.addEventListener("click", () => {
     setName(nameInput.value);
-});
-
-//text hidding
+})
 
 const btn = document.querySelector(".btn");
 const text = document.querySelector(".text");
