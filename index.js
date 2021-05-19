@@ -36,7 +36,7 @@ function toggleText() {
 btn.addEventListener("click", () => {
     toggleText(); 
 });
-
+/*
 //image frame loader
 const urlInput = document.querySelector("input[name='url']");
 const widthInput = document.querySelector("input[name='width']");
@@ -75,3 +75,4 @@ colorInput.addEventListener("change", () =>{
 })
 
 hideImageOnLoad();
+*/
